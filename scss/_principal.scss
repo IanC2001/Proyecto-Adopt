@@ -1,0 +1,160 @@
+.bgDiv{
+    height: 500px;
+    width: 100%;
+    margin-top:-16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    .bgDivElements{ 
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;  
+}
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+main{
+    div{
+        h1{
+            font-weight: bold;
+            color: white;
+            font-size: 40px;
+            font-family: $fontMain;
+            text-shadow: 0.5px 1px 2px black;
+            text-align: center;
+        }
+        .amigo{
+            font-weight: bold;
+            color: white;
+            font-size: 25px;
+            font-family: $fontMain;
+            text-shadow: 0.5px 1px 2px black;
+            text-align: center;
+        }
+        a{
+            text-decoration: none ;
+        }
+    }
+
+
+    div{
+        h2{
+            text-align: center;
+            margin-top: 20px;
+            font-family: $fontMain;
+            font-size: 50px;
+            color: black;
+        }
+    }
+    div{
+        .pYg{
+            display: flex;   
+            justify-content: space-around;
+        }
+    }
+
+    h1{
+        text-align: center;
+        font-weight: 800;
+        margin-top: 15px;
+    }
+    .imgMain{
+        display: flex;
+        padding: 30px;
+        
+        img{
+            border-radius: 45%;
+           
+        }
+        
+    }
+    .a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        h2{
+            font-size: 2.5em;
+        }
+    }
+    .b{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        h2{
+            font-size: 2.5em;
+        }
+    }
+    .c{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        h2{
+            font-size: 2.5em;
+        }
+    }
+    .flexDonate{
+        display: flex;
+        .bgDonate{
+            background-color: rgba(173, 173, 173, 0.887);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .imgDonate{
+            width: auto;
+            height: auto;
+        }
+        .pDona{
+            margin-top:30px;
+            text-align: center;
+        }
+        .dona{
+            text-decoration: none;
+            width: 150px;
+            padding: 9px;
+            margin-top:30px;
+            cursor: pointer;
+            align-self: center;
+            border-radius: 20px;
+            a{
+                color: black;
+            } 
+        }
+    }
+    div{
+        div{
+            div{
+                    .card {
+                        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                        transition: 0.3s;
+                        .img5{
+                            width: 5px;
+                        }
+                      }
+                      .card:hover {
+                        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                      }
+                      .container {
+                        padding: 2px 16px;
+                    }
+            }
+        }
+    }
+}
+
+  

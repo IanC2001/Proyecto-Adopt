@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.purina{
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.233);
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    
+    p{
+        font-family: $fontMain;
+        align-items: center;
+        margin-top: 10px;
+        font-weight: bold;
+        
+    }
+    .purinaImg{
+        width: 100px;
+        
+        
+    }
+    
+}
+
