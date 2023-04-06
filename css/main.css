@@ -288,7 +288,7 @@ main .buttonD {
   margin-top: 15px;
   margin-bottom: 25px;
   margin-left: 25px;
-  transition: background-color 2s ease-out 100ms;
+  transition: background-color 1s ease-out 100ms;
   color: white;
 }
 main .buttonD:hover {
@@ -330,6 +330,12 @@ main form .btnDona {
   border: none;
   background-color: rgb(146, 145, 196);
   border-radius: 20px;
+  width: 100px;
+  margin-left: 245px;
+}
+main .seleccionado {
+  background-color: rgb(30, 28, 156);
+  transition: background-color 1s ease-out 100ms;
 }
 
 /*# sourceMappingURL=main.css.map */
