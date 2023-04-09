@@ -24,8 +24,9 @@ btnDona.addEventListener('click', (event) => {
   Toastify({
     text: '¡Gracias por donar!',
     duration: 3000,
-    gravity: 'bottom',
+    gravity: 'top',
     close: true,
+    
     
   }).showToast();
 });

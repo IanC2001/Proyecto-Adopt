@@ -221,6 +221,7 @@ main .flexDonate .pDona {
 }
 main .flexDonate .color {
   color: white;
+  font-size: 33px;
 }
 main .flexDonate .dona {
   text-decoration: none;
@@ -246,6 +247,9 @@ main div div div .card:hover {
 }
 main div div div .container {
   padding: 2px 16px;
+}
+main .Toastify {
+  width: 200px;
 }
 
 .logo {
