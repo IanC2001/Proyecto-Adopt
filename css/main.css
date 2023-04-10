@@ -311,31 +311,31 @@ main .underline {
 main .underline2 {
   margin-top: 15px;
 }
-main form {
+main .formAB {
   display: flex;
   flex-direction: column;
   padding: 30px;
   margin-top: 20px;
 }
-main form input {
+main .formAB input {
   margin: 10px;
 }
-main form img {
+main .formAB img {
   width: 200px;
 }
-main form .selectFlex {
+main .formAB .selectFlex {
   display: flex;
   padding: 20px;
   justify-content: space-evenly;
 }
-main form .widInput1 {
+main .formAB .widInput1 {
   display: flex;
 }
-main form .widInput2 {
+main .formAB .widInput2 {
   display: flex;
   justify-content: center;
 }
-main form .btnDona {
+main .formAB .btnDona {
   margin-top: 3px;
   border: none;
   background-color: rgb(146, 145, 196);
@@ -346,6 +346,30 @@ main form .btnDona {
 main .seleccionado {
   background-color: rgb(30, 28, 156);
   transition: background-color 1s ease-out 100ms;
+}
+
+.formImg {
+  width: 800px;
+  display: flex;
+  margin-left: 550px;
+  margin-top: 25px;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.h4h5 {
+  text-align: center;
+}
+.h4h5 .textH4 {
+  font-weight: 300;
+}
+.h4h5 .textH5 {
+  font-weight: 300;
+}
+
+.formA {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=main.css.map */
