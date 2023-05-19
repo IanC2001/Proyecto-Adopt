@@ -1,6 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@font-face {
+    font-family: 'MiFuente';
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Varela+Round&display=swap') format('truetype');
+  }
+
+
+
+
+
+
 
 $fontMain:'Varela Round', sans-serif;
 $colorMain:rgb(146, 145, 196);
 $colorSecondary:#93417648;
 $thirdColor:#ffffff;
+
